@@ -26,16 +26,14 @@ python alien_invasion.py
 ## Teaching Instructions
 
 In order to teach students there are a few things to notice!
-You should start from the first building block(scratch).
+You should start from the first building-block(scratch).
 Developing together from the scratch is the best way of learning.
 
-I have organized my `git-commits` in a way: that you can develop along fro
-m the first commit moving forward to the nexts!
+I have organized my `git-commits` in a way: that you can develop along from the first commit moving forward to the nexts!
 
 follow the next steps:
  
-Move `gitlogOfpygame.txt` file from it's parent folder(where it was origin
-ally), to somewhere you like(Desktop, Documents, Downloads,... etc)
+Move `gitlogOfpygame.txt` file from it's parent folder(where it was originally), to somewhere you like(Desktop, Documents, Downloads,... etc)
 
 run this commands:
 
@@ -65,7 +63,7 @@ while going through each development step understand the core change by refferin
 
 all the checksum/SHA commit hash are avialiable inside `gitlogOfpygame.txt`
 
-If want to continue on your work HEAD will be detached, to fix it:
+If want to continue on your work, HEAD will be detached. to fix it:
 
 ```bash
 git branch update HEAD
