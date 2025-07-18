@@ -35,7 +35,7 @@ follow the next steps:
  
 Move `gitlogOfpygame.txt` file from it's parent folder(where it was originally), to somewhere you like(Desktop, Documents, Downloads,... etc)
 
-run this commands:
+Then run this commands:
 
 ```bash
 git checkout <checksum/SHA hash of the commit>
@@ -63,22 +63,12 @@ while going through each development step understand the core change by refferin
 
 all the checksum/SHA commit hash are avialiable inside `gitlogOfpygame.txt`
 
-If want to continue on your work, HEAD will be detached. to fix it:
+After you finished teaching do not commit anything before you:
 
 ```bash
-git branch update HEAD
+git checkout master
 ```
-and on your main/master branch
-
-```bash
-git merge update
-```
-finally delete the update branch
-
-```bash
-git branch -d update
-```
-you can continue your work then!
+Then only, you can continue on your work!
 
 ## Contributing
 
