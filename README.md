@@ -33,9 +33,7 @@ I have organized my `git-commits` in a way: that you can develop along from the 
 
 follow the next steps:
  
-Move `gitlogOfpygame.txt` file from it's parent folder(where it was originally), to somewhere you like(Desktop, Documents, Downloads,... etc)
-
-Then run this commands:
+Run this commands:
 
 ```bash
 git checkout <checksum/SHA hash of the commit>
@@ -61,7 +59,11 @@ git checkout 97a5b27c3b260c677705518827efe059a289c88c
 
 while going through each development step understand the core change by reffering the commit messages!
 
-all the checksum/SHA commit hash are avialiable inside `gitlogOfpygame.txt`
+All the checksum/SHA-commit hash and commit message are avialiable:
+
+```bash
+git log --pretty=oneline
+```
 
 After you finished teaching do not commit anything before you:
 
