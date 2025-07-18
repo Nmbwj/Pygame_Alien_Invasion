@@ -65,6 +65,23 @@ while going through each development step understand the core change by refferin
 
 all the checksum/SHA commit hash are avialiable inside `gitlogOfpygame.txt`
 
+If want to continue on your work HEAD will be detached, to fix it:
+
+```bash
+git branch update HEAD
+```
+and on your main/master branch
+
+```bash
+git merge update
+```
+finally delete the update branch
+
+```bash
+git branch -d update
+```
+you can continue your work then!
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
