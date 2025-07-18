@@ -23,6 +23,48 @@ Download the game [image](https://drive.google.com/drive/folders/1L_4pNwRiLritO3
 python alien_invasion.py
 ```
 
+## Teaching Instructions
+
+In order to teach students there are a few things to notice!
+You should start from the first building block(scratch).
+Developing together from the scratch is the best way of learning.
+
+I have organized my `git-commits` in a way: that you can develop along fro
+m the first commit moving forward to the nexts!
+
+follow the next steps:
+ 
+Move `gitlogOfpygame.txt` file from it's parent folder(where it was origin
+ally), to somewhere you like(Desktop, Documents, Downloads,... etc)
+
+run this commands:
+
+```bash
+git checkout <checksum/SHA hash of the commit>
+```
+
+for example to start from the beigning run:
+
+```bash
+git checkout 3e925da72664c676a95e68246ed37dca5b990ef4
+```
+
+to go to the next development step run:
+
+```bash
+git checkout d313afde8868796fd67aa38ac633da580e18772e
+```
+
+to go to the latest development run:
+
+```bash
+git checkout 97a5b27c3b260c677705518827efe059a289c88c
+```
+
+while going through each development step understand the core change by reffering the commit messages!
+
+all the checksum/SHA commit hash are avialiable inside `gitlogOfpygame.txt`
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
